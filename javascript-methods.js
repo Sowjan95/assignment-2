@@ -19,7 +19,13 @@ Array.prototype.myMap = function(callbackFn) {
 
 // FILTER //
 Array.prototype.myFilter = function(callbackFn) {
-  // Place your code here.
+  var newArr = new Array();
+  for (let i = 0; i < this.length; i++) {
+    if (callbackFn(this[i])) {
+      newArr.push(this[i]);
+    }
+  }
+  return newArr;
 };
 
 // SOME //
