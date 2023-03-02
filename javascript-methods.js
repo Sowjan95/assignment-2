@@ -89,10 +89,14 @@ Array.prototype.myLastIndexOf = function(searchElement) {
 
 // KEYS //
 Object.myKeys = function(object) {
-  // Place your code here.
+  var returnArr = [];
+  for (const [key, value] of Object.entries(object1)) {
+    returnArr.push(key);
+  }
+  return returnArr;
 };
 
 // VALUES //
 Object.myValues = function(object) {
-  // Place your code here.
+ 
 };
