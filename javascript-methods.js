@@ -98,5 +98,9 @@ Object.myKeys = function(object) {
 
 // VALUES //
 Object.myValues = function(object) {
- 
+  var returnArr = [];
+  for (val in object) {
+    returnArr.push(i);
+  }
+  return returnArr;
 };
