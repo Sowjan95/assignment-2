@@ -48,7 +48,7 @@ Array.prototype.myEvery = function(callbackFn) {
   return true;
 };
 
-// REDUCE //
+// REDUCE //!!!!!
 Array.prototype.myReduce = function(callbackFn) {
   var returnVar = 0;
   for (let i = 0; i < this.length; i++) {
@@ -79,7 +79,12 @@ Array.prototype.myIndexOf = function(searchElement) {
 
 // LASTINDEXOF //
 Array.prototype.myLastIndexOf = function(searchElement) {
-  // Place your code here.
+  for (let i = this.length; i >= 0; i--) {
+    if (searchElement == this[i]) {
+      return i;
+    }
+  }
+  return -1;
 };
 
 // KEYS //
