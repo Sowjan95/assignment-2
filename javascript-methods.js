@@ -90,7 +90,7 @@ Array.prototype.myLastIndexOf = function(searchElement) {
 // KEYS //
 Object.myKeys = function(object) {
   var returnArr = [];
-  for (const [key, value] of Object.entries(object1)) {
+  for (const [key, value] of Object.entries(object)) {
     returnArr.push(key);
   }
   return returnArr;
