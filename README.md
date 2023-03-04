@@ -2,6 +2,7 @@
 ### Name: Sowjanya Sritharasarma
 ### GitHub: Sowjan95
 
+----------
 ## JavaScript Prototype: Method ##
 Every object in JavaScript has a built-in property called "prototype." 
 
